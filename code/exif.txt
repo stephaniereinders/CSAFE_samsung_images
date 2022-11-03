@@ -1,0 +1,5 @@
+cd ~/Documents/non_version_control/CSAFE/camera_id/CSAFE_samsung_images
+
+~/Documents/Image-ExifTool-12.49/exiftool -csv -r -FileName -Make -Model -Orientation -FNumber -ExposureProgram
+-ExposureTime -ISO -ApertureValue -Flash -FocalLength -DigitalZoomRatio -SceneCaptureType -ImageWidth -ImageHeight
+  . > ~/Documents/version_control/CSAFE_samsung_images/data/exifdata.csv

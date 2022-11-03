@@ -1,3 +1,0 @@
-cd ~/Documents/non_version_control/CSAFE/camera_id/CSAFE_samsung_images
-
-~/Documents/Image-ExifTool-12.49/exiftool -csv -r . > ~/Documents/version_control/CSAFE_samsung_images/data/exifdata.csv
